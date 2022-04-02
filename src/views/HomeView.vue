@@ -1,15 +1,17 @@
 <script>
-import HomeHelper from "../components/HomeHelper.vue";
+import HomeHelper from '../components/HomeHelper.vue';
+
+
 
 export default {
   components: {
-    HomeHelper
+    HomeHelper,
   },
 };
 </script>
 
-
 <template>
-    This is a test thing, go
-  <div><HomeHelper msg="HELLO" /></div>
+  <div>
+    <home-helper msg="HELLO" />
+  </div>
 </template>
