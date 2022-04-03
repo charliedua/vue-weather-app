@@ -1,15 +1,16 @@
 <script>
 export default {
-    name: "HomeHelper",
+  name: "HomeHelper",
+  props: {
     msg: {
-        type: String,
-        required: true,
-    }
-}
+      type: String,
+    },
+  },
+};
 </script>
 
 <template>
-    <p>
-        {{ msg }}
-    </p>
+  <p>
+    {{ msg }}
+  </p>
 </template>

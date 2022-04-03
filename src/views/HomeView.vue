@@ -1,8 +1,6 @@
 <script>
 import HomeHelper from '../components/HomeHelper.vue';
 
-
-
 export default {
   components: {
     HomeHelper,
@@ -12,6 +10,6 @@ export default {
 
 <template>
   <div>
-    <home-helper msg="HELLO" />
+    <home-helper msg="Props Testing"></home-helper>
   </div>
 </template>
