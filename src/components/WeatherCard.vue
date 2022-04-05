@@ -2,26 +2,8 @@
 export default {
   name: "WeatherCard",
   props: {
-    objData: Object
-    // lowTemp: Number,
-    // highTemp: Number,
-    // location: Object,
-    // weatherIcon: String,
-    // tempUnit: String,
+    objData: Object,
   },
-  // data() {
-  //   return {
-  //     lowTemp: 27.5,
-  //     highTemp: 55.3,
-  //     location: {
-  //       city: "Melbourne",
-  //       state: "VIC",
-  //     },
-  //     weatherIcon:
-  //       "https://cdn.icon-icons.com/icons2/2505/PNG/512/sunny_weather_icon_150663.png",
-  //     tempUnit: "°C",
-  //   };
-  // },
 };
 </script>
 
@@ -31,14 +13,17 @@ export default {
     <img :src="objData.weatherIcon" />
     <ul>
       <li>
-        Low : <span id="high">{{ objData.lowTemp }} {{ objData.tempUnit }}</span>
+        Low :
+        <span id="high">{{ objData.lowTemp }} {{ objData.tempUnit }}</span>
       </li>
       <li>
-        High : <span id="low">{{ objData.highTemp }} {{ objData.tempUnit }}</span>
+        High :
+        <span id="low">{{ objData.highTemp }} {{ objData.tempUnit }}</span>
       </li>
     </ul>
     <p>
-      Showing temps of : <b>{{ objData.location.city }} {{ objData.location.state }}</b>
+      Showing temps of :
+      <b>{{ objData.location.city }} {{ objData.location.state }}</b>
     </p>
   </div>
 </template>
