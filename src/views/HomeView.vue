@@ -10,6 +10,7 @@ export default {
     // Mock Api Data
       tempData: [
         {
+            id: 1,
           lowTemp: 27.5,
           highTemp: 47.1,
           location: {
