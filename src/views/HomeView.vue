@@ -7,10 +7,11 @@ export default {
   },
   data() {
     return {
+    // Mock Api Data
       tempData: [
         {
           lowTemp: 27.5,
-          highTemp: 55.3,
+          highTemp: 47.1,
           location: {
             city: "Melbourne",
             state: "VIC",
@@ -23,8 +24,8 @@ export default {
           lowTemp: 10.5,
           highTemp: 17.6,
           location: {
-            city: "Melbourne",
-            state: "VIC",
+            city: "Darwin",
+            state: "NT",
           },
           weatherIcon:
             "https://cdn.icon-icons.com/icons2/2505/PNG/512/sunny_weather_icon_150663.png",
